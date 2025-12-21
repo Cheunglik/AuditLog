@@ -1,4 +1,4 @@
 {
   "$schema": "build.schema.json",
-  "Solution": "AuditLog/AuditLog.sln"
+  "Solution": "AuditLog.sln"
 }
