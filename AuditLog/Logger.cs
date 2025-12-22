@@ -50,6 +50,7 @@ namespace AuditLog
             catch (Exception ex)
             {
                 Debug.WriteLine(ex.Message);
+                Debug.WriteLine("test1");
             }
             finally
             {
