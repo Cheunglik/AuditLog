@@ -28,7 +28,7 @@
             mActivateTimeDelay = s;
         }
 
-        public void WrtiteLog(string context = "", [System.Runtime.CompilerServices.CallerMemberName] string memberName = "")
+        public void WriteLog(string context = "", [System.Runtime.CompilerServices.CallerMemberName] string memberName = "")
         {
             if (Disable) return;
 
