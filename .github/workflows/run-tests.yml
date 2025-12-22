@@ -1,7 +1,7 @@
 name: Run AuditLog.Tests
 on:
   push:
-    branches: ["main"] # 當 main 分支有 push 時觸發
+    branches: ["master"] # 當 main 分支有 push 時觸發
     paths: 
       - 'AuditLog/**'  # 只有當 AuditLog 資料夾內的檔案有變動才執行 (可選)
 jobs:
