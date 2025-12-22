@@ -1,4 +1,6 @@
-﻿namespace AuditLog
+﻿using System.Diagnostics;
+
+namespace AuditLog
 {
     public class Logger
     {
@@ -47,7 +49,7 @@
             }
             catch (Exception ex)
             {
-
+                Debug.WriteLine(ex.Message);
             }
             finally
             {
